@@ -6,24 +6,25 @@
 }
 
 h1 {
+  margin-top: 20px;
   margin-bottom: 40px;
   text-align: center;
   font-size: 30px;
 }
 
 div#container {
-	position: relative;
-	padding: 15px;}
+        position: relative;
+        padding: 15px;
+}
 
 section {
-	position: relative;
-	width: 100%;
-	border: 3px solid black;
-  	background-color: #808080;
-  	margin-left: auto;
-  	margin-right: auto;
-  	margin-bottom: auto;
-  	border: 2px solid black;
+        width: 100%;
+        border: 3px solid black;
+        background-color: #808080;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        border: 2px solid black;
 }
 
 .content {
@@ -33,12 +34,13 @@ section {
   overflow: auto;
   color: black;
   text-align: left;
+  font-size: 100%;
   padding: 10px 10px 10px 10px;
 
 }
 
 .chicken {
-	float: right;
+    float: right;
     width: 100px;
     padding: 5px;
     margin: -1.5px -1.5px 0px;
@@ -46,12 +48,12 @@ section {
     text-align: center;
     font-size: 125%;
     font-weight: bold;
-	background-color: #FFC0CB;
-  	color: black;
+    background-color: #FFC0CB;
+    color: black;
 }
 
 .beef {
-	float: right;
+    float: right;
     width: 100px;
     padding: 5px;
     margin: -1.5px -2px 0px;
@@ -59,12 +61,12 @@ section {
     text-align: center;
     font-size: 125%;
     font-weight: bold;
-	background-color: #FF0000;
-  	color: white;
+    background-color: #FF0000;
+    color: white;
 }
 
 .sushi {
-	float: right;
+        float: right;
     width: 100px;
     padding: 5px;
     margin: -1.5px -2px 0px;
@@ -72,15 +74,14 @@ section {
     text-align: center;
     font-size: 125%;
     font-weight: bold;
-	background-color: #FFFACD;
-  	color: black;
+        background-color: #FFFACD;
+          color: black;
 }
 
 /* Simple Responsive Framework. */
 .row {
-  width: 100%;
   padding-right: 2%;
-  padding-left: 2%
+  padding-left: 2%;
 }
 
 /********** Desktop **********/
@@ -94,7 +95,7 @@ section {
 /********** Tablet **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
-  	float: left;
+    float: left;
     width: 50%;
   }
   .col-md-12 {
@@ -106,7 +107,7 @@ section {
 /********** Smart Phone **********/
 @media (max-width: 767px) {
   .col-sm-12 {
-  	float: left;
+    float: left;
     width: 100%;
   }
 }
