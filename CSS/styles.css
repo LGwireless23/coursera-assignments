@@ -13,7 +13,6 @@ h1 {
 }
 
 div#container {
-<<<<<<< HEAD
   position: relative;
   padding: 15px;
 }
@@ -26,9 +25,6 @@ section {
   margin-right: auto;
   margin-bottom: auto;
   border: 2px solid black;
-=======
-        position: relative;
-        padding: 15px;
 }
 
 section {
@@ -39,7 +35,6 @@ section {
         margin-right: auto;
         margin-bottom: auto;
         border: 2px solid black;
->>>>>>> f0b3b9012aa0dc54b626aa7e8015b8a6f25f73a7
 }
 
 .content {
@@ -68,7 +63,6 @@ section {
 }
 
 .beef {
-<<<<<<< HEAD
   float: right;
   width: 100px;
   padding: 5px;
@@ -92,7 +86,6 @@ section {
   font-weight: bold;
   background-color: #FFFACD;
   color: black;
-=======
     float: right;
     width: 100px;
     padding: 5px;
@@ -116,7 +109,6 @@ section {
     font-weight: bold;
         background-color: #FFFACD;
           color: black;
->>>>>>> f0b3b9012aa0dc54b626aa7e8015b8a6f25f73a7
 }
 
 /* Simple Responsive Framework. */
